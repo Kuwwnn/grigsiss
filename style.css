@@ -537,8 +537,7 @@ div {
     height: 80%;
     margin-top: 30px;
     resize: none;
-    font-family: "Inter", sans-serif;;
-
+    font-family: "Inter", sans-serif;
 }
 
 #contact-form button:hover {
@@ -821,6 +820,16 @@ div {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
+    }
+    .dropdown{
+        font-size: 1rem;
+        left: -1.2rem;
+    }
+    .dropdown a{
+        display: block;
+        width: 20px;
+        height: auto;
+        font-size: 14px;
     }
     
 }
